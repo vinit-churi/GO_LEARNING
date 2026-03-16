@@ -18,6 +18,6 @@ type authenticationInfo struct {
 }
 
 // create the method below
-func (auth authenticationInfo) getBasicAuth() {
-	fmt.Printf("%v:%v", auth.username, auth.password)
+func (auth authenticationInfo) getBasicAuth() string {
+	return fmt.Sprintf("Authorization: Basic %v:%v", auth.username, auth.password)
 }
