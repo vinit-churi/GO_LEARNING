@@ -28,5 +28,6 @@ Rules for future contributors and LLMs:
 Current implementation state:
 
 - Beginner phase is complete across modules `01` through `14`.
-- `go test ./...` passes with the staged beginner lessons included.
-- Intermediate and advanced phases are still pending by design.
+- Intermediate phase is complete across modules `01` through `18`.
+- Advanced phase is complete across modules `01` through `14`, including multiple mini-project lessons.
+- `go test ./...` passes with the staged beginner, intermediate, and advanced lessons included.

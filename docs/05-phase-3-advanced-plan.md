@@ -1,6 +1,6 @@
 # Phase 3 Plan: Advanced
 
-Status: `pending`
+Status: `completed`
 
 ## Goal
 
@@ -35,3 +35,26 @@ This phase should cover:
 ## Completion Criteria
 
 Phase 3 is complete when the advanced path exists end-to-end and the repo contains at least a few mini-projects tying together multiple prior topics.
+
+Implemented at:
+
+- `lessons/03-advanced/01-generics-fundamentals`
+- `lessons/03-advanced/02-generic-constraints`
+- `lessons/03-advanced/03-reflection`
+- `lessons/03-advanced/04-advanced-interface-design`
+- `lessons/03-advanced/05-memory-layout-and-escape-analysis`
+- `lessons/03-advanced/06-scheduler-and-runtime-concepts`
+- `lessons/03-advanced/07-memory-model`
+- `lessons/03-advanced/08-profiling-and-optimization`
+- `lessons/03-advanced/09-build-tags-and-cross-compilation`
+- `lessons/03-advanced/10-workspaces-and-larger-codebase-structure`
+- `lessons/03-advanced/11-unsafe-package`
+- `lessons/03-advanced/12-cgo-overview`
+- `lessons/03-advanced/13-advanced-testing-strategy`
+- `lessons/03-advanced/14-practical-mini-projects`
+
+Mini-project lessons included:
+
+- `lessons/03-advanced/14-practical-mini-projects/01-generic-safe-cache`
+- `lessons/03-advanced/14-practical-mini-projects/02-context-aware-runner`
+- `lessons/03-advanced/14-practical-mini-projects/03-in-memory-status-service`

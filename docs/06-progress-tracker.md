@@ -5,7 +5,7 @@ Use this file to record what is complete, what is in progress, and what the next
 ## Overall Status
 
 - repository planning: `completed`
-- curriculum content creation: `in_progress`
+- curriculum content creation: `completed`
 
 ## Phase Status
 
@@ -13,8 +13,8 @@ Use this file to record what is complete, what is in progress, and what the next
 |---|---|---|
 | Planning docs | completed | Keep docs in sync with implementation |
 | Beginner | completed | Keep the staged beginner lessons stable and expand density later if desired |
-| Intermediate | pending | Start phase 2 when ready |
-| Advanced | pending | Wait for intermediate coverage |
+| Intermediate | completed | Expand lesson density later if desired, but keep the track stable |
+| Advanced | completed | Expand density, examples, or projects later if desired |
 
 ## Decisions Already Made
 
@@ -31,10 +31,12 @@ Use this file to record what is complete, what is in progress, and what the next
 
 The staged beginner curriculum now covers all planned phase 1 modules.
 
-When implementation resumes, start with:
+There is no pending phase plan now.
 
-1. [04-phase-2-intermediate-plan.md](/Users/vinitchuri/projects/go_learning/docs/04-phase-2-intermediate-plan.md)
-2. `lessons/02-intermediate/` for the first intermediate batch
+If implementation resumes, the next useful work is:
+
+1. increase lesson density inside completed modules
+2. add more optional capstones or project polish where desired
 
 ## Completed So Far
 
@@ -65,8 +67,10 @@ Additional notes:
 - a new staged lesson was added at `lessons/01-beginner/04-loops/01-message-batches`
 - a new staged lesson was added at `lessons/01-beginner/05-functions/01-order-summary`
 - a staged lesson now exists for every remaining beginner module from `06-scope-and-packages` through `14-intro-to-testing`
-- `go test ./...` passes with the completed staged beginner track
-- intermediate and advanced phases remain pending by design
+- a staged lesson now exists for every planned intermediate module from `01-pointers-and-semantics` through `18-http-servers`
+- a staged lesson now exists for every planned advanced module from `01-generics-fundamentals` through `14-practical-mini-projects`
+- the advanced track includes three mini-project lessons tying together prior topics
+- `go test ./...` passes with the completed staged beginner, intermediate, and advanced tracks
 
 ## Update Rule
 

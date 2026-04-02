@@ -150,6 +150,54 @@ Completed staged beginner modules:
 
 Current next file to act on:
 
-- [04-phase-2-intermediate-plan.md](/Users/vinitchuri/projects/go_learning/docs/04-phase-2-intermediate-plan.md)
+- no pending phase plan; expand density or projects only if desired
 
-Intermediate and advanced phases remain pending by design until phase 2 work begins.
+The staged intermediate path is now built end to end and passes tests.
+
+Completed staged intermediate modules:
+
+- `01-pointers-and-semantics`
+- `02-composition-and-embedding`
+- `03-interfaces-in-practice`
+- `04-custom-errors-and-error-wrapping`
+- `05-standard-library-essentials`
+- `06-file-io`
+- `07-json-and-encoding`
+- `08-time-randomness-and-utilities`
+- `09-modules-and-package-design`
+- `10-table-driven-tests`
+- `11-benchmarks-and-fuzz-tests`
+- `12-goroutines`
+- `13-channels`
+- `14-select-timeouts-and-cancellation`
+- `15-context`
+- `16-mutexes-atomics-and-race-detection`
+- `17-http-clients`
+- `18-http-servers`
+
+The staged advanced path is now built end to end and passes tests.
+
+Completed staged advanced modules:
+
+- `01-generics-fundamentals`
+- `02-generic-constraints`
+- `03-reflection`
+- `04-advanced-interface-design`
+- `05-memory-layout-and-escape-analysis`
+- `06-scheduler-and-runtime-concepts`
+- `07-memory-model`
+- `08-profiling-and-optimization`
+- `09-build-tags-and-cross-compilation`
+- `10-workspaces-and-larger-codebase-structure`
+- `11-unsafe-package`
+- `12-cgo-overview`
+- `13-advanced-testing-strategy`
+- `14-practical-mini-projects`
+
+The advanced mini-project module currently includes:
+
+- `01-generic-safe-cache`
+- `02-context-aware-runner`
+- `03-in-memory-status-service`
+
+All planned phases are now implemented.
