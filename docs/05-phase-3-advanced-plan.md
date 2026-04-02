@@ -36,6 +36,12 @@ This phase should cover:
 
 Phase 3 is complete when the advanced path exists end-to-end and the repo contains at least a few mini-projects tying together multiple prior topics.
 
+## Practice Depth Notes
+
+- The current advanced path also starts with one primary lesson unit (`01-*`) per module, with mini-projects as additional integrated practice.
+- Each primary unit should provide multiple exercises (minimum 3 in each lesson `README.md`, per content spec).
+- To practice advanced concepts more thoroughly, add extra lesson units (`02-*`, `03-*`) for high-leverage modules like generics, reflection, profiling, memory model, and testing strategy.
+
 Implemented at:
 
 - `lessons/03-advanced/01-generics-fundamentals`
