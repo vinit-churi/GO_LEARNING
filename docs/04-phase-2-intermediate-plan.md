@@ -52,6 +52,12 @@ Intermediate lessons should begin emphasizing:
 
 Phase 2 is complete when all scope modules have planned lesson folders and implemented content that follows the content spec.
 
+## Practice Depth Notes
+
+- The current intermediate path has one implemented lesson unit (`01-*`) per module.
+- Each implemented unit should still contain multiple exercises (minimum 3 per `README.md`, per content spec).
+- To increase deliberate practice volume, future expansion should add `02-*` and `03-*` lesson units in selected modules (especially concurrency, HTTP, testing, and package design).
+
 Implemented at:
 
 - `lessons/02-intermediate/01-pointers-and-semantics`
