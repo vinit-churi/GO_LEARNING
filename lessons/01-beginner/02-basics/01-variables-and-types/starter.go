@@ -8,7 +8,9 @@ package variables
 // TODO: Return both variables
 func Exercise1() (string, int) {
 	// Your code here
-	return "", 0
+	var name string = "vinit"
+	var age int = 27
+	return name, age
 }
 
 // Exercise2 demonstrates short variable declaration using the := operator.
@@ -18,7 +20,10 @@ func Exercise1() (string, int) {
 // TODO: Return all three variables
 func Exercise2() (float64, bool, string) {
 	// Your code here
-	return 0.0, false, ""
+	temperature := 24.0
+	isRaining := false
+	city := "borivali"
+	return temperature, isRaining, city
 }
 
 // Exercise3 demonstrates Go's zero values for different types.
@@ -29,7 +34,11 @@ func Exercise2() (float64, bool, string) {
 // TODO: Return all four variables (they will have their zero values)
 func Exercise3() (int, float64, string, bool) {
 	// Your code here
-	return 0, 0.0, "", false
+	var age int
+	var temperature float64
+	var name string
+	var isDoing bool
+	return age, temperature, name, isDoing
 }
 
 // Exercise4 demonstrates declaring multiple variables using a var block.
@@ -41,5 +50,6 @@ func Exercise3() (int, float64, string, bool) {
 // TODO: Return all four variables
 func Exercise4() (string, float64, bool, int) {
 	// Your code here
-	return "", 0.0, false, 0
+	productName, price, inStock, quantity := "Laptop", 999.99, true, 5
+	return productName, price, inStock, quantity
 }
