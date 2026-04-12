@@ -10,9 +10,13 @@ import (
 // It should print "Hello World!" on a single line
 func BasicPrint() {
 	// TODO: Use fmt.Print to output "Hello"
+	fmt.Print("Hello")
 	// TODO: Use fmt.Print to output " "
+	fmt.Print(" ")
 	// TODO: Use fmt.Print to output "World"
+	fmt.Print("World")
 	// TODO: Use fmt.Println to output "!"
+	fmt.Print("!")
 }
 
 // FormattedOutput uses fmt.Printf to print formatted output
@@ -21,9 +25,7 @@ func FormattedOutput(name string, age int, height float64) {
 	// TODO: Use fmt.Printf with format verbs to print the formatted message
 	// Hint: Use %s for string, %d for int, %.2f for float with 2 decimal places
 	// Don't forget to add \n at the end
-	_ = name
-	_ = age
-	_ = height
+	fmt.Printf("Name: %s, Age: %d, Height: %.2fm\n", name, age, height)
 }
 
 // FormatVerbsPractice demonstrates different format verbs
@@ -34,7 +36,7 @@ func FormatVerbsPractice(value interface{}) {
 	// TODO: Print "Type: " followed by the type using %T
 	// TODO: If the value is a string, print "String: " followed by the quoted string using %q
 	// Hint: Use type assertion to check if value is a string: str, ok := value.(string)
-	_ = value
+	fmt.Printf("Value: %v\nType: %T\n,String: %q", value, value, value)
 }
 
 // ReadUserInput reads a name (string) and age (int) from the provided reader
@@ -45,6 +47,14 @@ func ReadUserInput(reader io.Reader) (string, int, error) {
 	// Hint: Pass pointers to name and age using &
 	// TODO: Return the name, age, and error
 	_ = reader
+	var Name string
+	var Age int
 
-	return "", 0, nil // placeholder return
+	n, err := fmt.Scanf("%s %d", &Name, &Age)
+
+	if err != nil {	
+		return "", 0, nil // placeholder return
+	}
+
+	return Name, Age, nil
 }
